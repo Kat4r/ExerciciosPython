@@ -1,0 +1,46 @@
+Veiculo:Porsche Macan
+KM por Litro:24.9
+Veiculo:Toyota RAV4
+KM por Litro:20.9
+Veiculo:Nissan Rogue
+KM por Litro:4.7
+Veiculo:Koenigsegg Agera
+KM por Litro:4.1
+Veiculo:GMC Sierra
+KM por Litro:24.1
+Veiculo:Ford Mustang
+KM por Litro:15.6
+Veiculo:Jeep Wrangler
+KM por Litro:3.1
+Veiculo:Hyundai Kona
+KM por Litro:1.9
+Veiculo:Ford Explorer
+KM por Litro:2.9
+Veiculo:Subaru Crosstrek
+KM por Litro:23.2
+Veiculo:Tesla Model S
+KM por Litro:22.2
+Veiculo:Mercedes-Benz E-Class
+KM por Litro:3.6
+Veiculo:Toyota RAV4
+KM por Litro:1.7
+Veiculo:Toyota Land Cruiser
+KM por Litro:8.4
+Veiculo:BMW 3 Series
+KM por Litro:14.3
+Veiculo:Ferrari 458 Italia
+KM por Litro:19.3
+Veiculo:Alfa Romeo Giulia
+KM por Litro:24.3
+Veiculo:BMW X3
+KM por Litro:12.6
+Veiculo:Range Rover Sport
+KM por Litro:13.5
+Veiculo:Mitsubishi Lancer Evolution
+KM por Litro:22.6
+Veiculo:Bentley Continental GT
+KM por Litro:6.6
+Veiculo:Cadillac XT5
+KM por Litro:5.4
+Veiculo:Nissan Rogue
+KM por Litro:2.4

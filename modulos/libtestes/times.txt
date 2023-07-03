@@ -1,0 +1,128 @@
+ABC
+Altos
+América-MG
+América-PE
+América-RN
+Anapolina
+Aparecidense
+Ariquemes
+ASA
+Athletico Paranaense
+Atlético Acreano
+Atlético Goianiense
+Atlético Mineiro
+Atlético Roraima
+Atlético Tubarão
+Avaí
+Avenida
+Bahia
+Bahia de Feira
+Barcelona-RO
+Boa
+Boavista
+Botafogo
+Botafogo-PB
+Botafogo-SP
+Bragantino
+Bragantino-PA
+Brasil
+Brasiliense
+Brusque
+Caldense
+Campinense
+Caxias
+Ceará
+Central
+Chapecoense
+Cianorte
+Confiança
+Corinthians
+Coritiba
+Corumbaense
+Coruripe
+CRB
+Criciúma
+Cruzeiro
+CSA
+Cuiabá
+Fast Club
+Ferroviária
+Ferroviário
+Figueirense
+Flamengo
+Floresta
+Fluminense
+Fluminense de Feira
+Fortaleza
+Foz do Iguaçu
+Galvez
+Gaúcho
+Globo
+Goiás
+Grêmio
+Guarani
+Hercílio Luz
+Imperatriz
+Internacional
+Interporto
+Iporá
+Itabaiana
+Itaboraí
+Ituano
+Jacuipense
+Joinville
+Juazeirense
+Juventude
+Londrina
+Luverdense
+Manaus
+Maranhão
+Maringá
+Moto Club
+Náutico
+Novorizontino
+Oeste
+Operário
+Operário-MS
+Palmas
+Palmeiras
+Paraná
+Patrocinense
+Paysandu
+Ponte Preta
+Portuguesa-RJ
+Remo
+Rio Branco
+River-PI
+Salgueiro
+Sampaio Corrêa
+Santa Cruz
+Santa Cruz de Natal
+Santos
+Santos-AP
+São Bento
+São Caetano
+São José
+São Paulo
+São Raimundo-AM
+São Raimundo-PA
+Sergipe
+Serra
+Serrano
+Sinop
+Sobradinho
+Sport
+Tombense
+Treze
+Tupi
+União Rondonópolis
+Uniclinic
+URT
+Vasco da Gama
+Vila Nova
+Vitória
+Vitória das Tabocas
+Vitória-ES
+Volta Redonda
+Ypiranga-AP
+Ypiranga-RS

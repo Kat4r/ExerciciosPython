@@ -1,0 +1,5 @@
+from Objetos.triangulo import *
+
+
+
+

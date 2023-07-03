@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="SqlDialectMappings">
+    <file url="file://$PROJECT_DIR$/exercicios/Curso em Video/ex045.py" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/exercicios/Curso em Video/ex095.py" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/exercicios/SQL/sqlpy.py" dialect="GenericSQL" />
+  </component>
+</project>

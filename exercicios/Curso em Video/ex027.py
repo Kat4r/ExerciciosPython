@@ -1,0 +1,5 @@
+nome = input('Digite um nome: ').strip().lower()
+ndiv = nome.split()
+print('Olá {}'.format(nome.title()))
+print('Seu nome começa com {}'.format(ndiv[0].title()))
+print('Seu nome termina com {}'.format(ndiv[-1].title()))

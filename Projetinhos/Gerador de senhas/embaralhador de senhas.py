@@ -1,0 +1,2 @@
+import funcsenhas
+funcsenhas.criarsenha()

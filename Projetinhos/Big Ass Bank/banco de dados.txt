@@ -1,0 +1,9 @@
+Nome: Vinicius Paulo
+Alcunha: Kat
+CPF: 48091940866
+Senha: 71433969
+------------------------
+Nome: Rafael Mendes
+CPF: 11596354255
+Senha: 8567
+------------------------
