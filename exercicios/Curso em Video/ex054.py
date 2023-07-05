@@ -13,4 +13,4 @@ for frase in range(0,6):
         idademenor = idademenor + 1
 print('Há \033[1:33m{}\033[m pessoas de \033[1:32mmaioridade\033[m nessa lista'.format(idademaior))
 print('Há \033[1:33m{}\033[m pessoas de \033[1:31mmenoridade\033[m nessa lista'.format(idademenor))
-#cara no papo, pintar é feio demais pqp
+
