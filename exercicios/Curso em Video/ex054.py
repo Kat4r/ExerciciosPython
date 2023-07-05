@@ -1,6 +1,6 @@
-import time as penis
-anoatual = penis.localtime()
-anoatual = int(penis.strftime('%Y', anoatual))
+import time
+anoatual = time.localtime()
+anoatual = int(time.strftime('%Y', anoatual))
 idademaior = idademenor = nascimento = frase = 0
 for frase in range(0,6):
     nascimento = int(input("digite a {}º idade: ".format(frase+1)))
