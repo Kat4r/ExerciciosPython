@@ -22,6 +22,17 @@ Este repositório contém uma coleção dos meus exercícios e projetos desenvol
 4. Pathmanager - Um organizador de diretorios que fiz pra minha pasta downloads, onde posso organizar todos os arquivos **.mp3, .wav, .png** e etc
 
 
+## Bibliotecas e Frameworks
+
+- Aqui uma lista com libs e frameworks usadas, libs essas a quais me aprofundei e fui em busca de cursos e exercios a parte.
+1. **Pandas**
+2. **Matplotlib**
+3. **Sympy**
+4. **Numpy**
+5. **Scipy**
+6. **Bisect**
+7. **Kivy**
+
 ### Considerações finais
 
 Não levar as coisas vistas por aqui como algo "profissional", ou inspirativo. Muitas de minhas metodologias de criação e escrita ja mudaram e ainda vão mudar muito em minha jornada.
