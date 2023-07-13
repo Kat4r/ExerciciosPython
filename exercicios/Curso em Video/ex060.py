@@ -1,4 +1,5 @@
 import numpy
+
 num = int(input('Digite um numero: '))
 calc = []
 for i in range(num,1,-1):
