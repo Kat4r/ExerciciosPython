@@ -30,7 +30,7 @@ def trade():
     while tempoM <= hora:
         tempoM = random.randint(00, 59)
 
-    metodo2 = {random.choice(metodo)}
+    metodo2 = random.choice(metodo)
     velasUso = random.choice(velas)
     if len(velasUso) == 2:
         velasUso += ' '
@@ -44,7 +44,7 @@ def trade():
 
 for i in range(0,100):
     trade()
-trade()
+
 
 
 
