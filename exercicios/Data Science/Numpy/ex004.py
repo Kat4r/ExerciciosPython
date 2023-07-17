@@ -1,6 +1,6 @@
 import numpy as np
 
-lista = np.arange(6).reshape(2,3)**5 #diversos metodos podem ser inclusos na criação de um array, incluindo contas matematicas
+lista = np.arange(6).reshape(2,3)**5
 
 print(lista[::2])
 print(lista[:32])
