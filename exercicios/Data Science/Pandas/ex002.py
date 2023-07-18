@@ -34,6 +34,7 @@ contagemEscola = nbaPlayers['Escola'].value_counts()
 nomeEscola = contagemEscola.index[1]
 
 
+
 print(f"\nA média de altura dos jogadores é de \033[35m{nbaPlayers['Altura'].mean():.2f} cm\033[m\n"
       f"Maior altura pertence a \033[34m{nomeAlturaMax}\033[m com \033[32m{alturaMax}cm\033[m de altura\n"
       f"Menor altura pertence a \033[34m{nomeAlturaMin}\033[m com \033[31m{alturaMin}cm\033[m de altura\n"
