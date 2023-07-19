@@ -1,4 +1,6 @@
 import pandas as pd
+import matplotlib.pyplot as plt
+
 
 
 data = {
@@ -17,3 +19,8 @@ df = pd.DataFrame(data)
 print(df.loc[:,'Idade']) #encontra itens por nome, tudo após a virgula é coluna e antes é linha
 print()
 print(df.iloc[:,1]) #encontra itens por indices, tudo após a virgula é coluna e antes é linha
+
+print(df.columns)
+
+df.plot.bar()
+plt.show()
