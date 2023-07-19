@@ -1,5 +1,6 @@
 #pandas boilerplate
 import pandas as pd
+import matplotlib.pyplot as plt
 pd.set_option('display.max_colwidth', 30)
 pd.set_option('display.max_rows', 20)
 pd.set_option('display.max_columns', None)
@@ -47,9 +48,12 @@ print(f"\nA média de altura dos jogadores é de \033[35m{nbaPlayers['Altura'].m
 """nome = input("Digite o nome do jogador o qual deseja acessar seu IMC: ").title()
 print(round(float(nbaPlayers[nbaPlayers['Nome do Jogador'] == f"{nome}"]['IMC'].values[0]), 2))"""
 
+nbaPlayers.info()
 
 
+jogosPorAltura = pd.pivot_table(nbaPlayers, index='Altura', values=['Pontos', 'Jogos Jogados'])
+nbaPlayers.plot.scatter(x='Altura',y='Pontos')
+plt.show()
 
 
-
-nbaPlayers.to_csv('H:\\Meus Códigos\\paito\\ai ui ai ui q dor\\exercicios\\Data Science\\Datasets\\all_seasons.csv', sep=',', index=False)
+#nbaPlayers.to_csv('H:\\Meus Códigos\\paito\\ai ui ai ui q dor\\exercicios\\Data Science\\Datasets\\all_seasons.csv', sep=',', index=False)
