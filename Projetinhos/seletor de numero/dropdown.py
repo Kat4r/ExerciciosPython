@@ -4,7 +4,6 @@ aqv = open('Numeros.txt', 'r')
 
 opcao = [x for x in aqv.readlines()]
 
-
 def app(arquivo):
     layout = [
         [sg.Text('Selecione seu Numero:')],
