@@ -1,11 +1,30 @@
 #pandas boilerplate
 import pandas as pd
 import matplotlib.pyplot as plt
+import statsmodels.api as sm
 pd.set_option('display.max_colwidth', 30)
 pd.set_option('display.max_rows', 20)
 pd.set_option('display.max_columns', None)
 pd.set_option('display.width', 1000)
 #-----------------------------------
+def graficoaltura():
+    nbaAlturaPorPontos = pd.pivot_table(nbaPlayers, index='Altura', values=['Pontos', 'Jogos Jogados'])
+    nbaAlturaPorPontos.plot.bar()
+
+
+def alturaPeso():
+    plt.figure()
+    plt.plot(nbaPlayers['Altura'], nbaPlayers['Peso'], 'ro')
+    plt.ylabel('PESO')
+    plt.grid()
+    plt.show()
+
+
+def predicao(dado,eixoX):
+
+    plt.plot(eixoX, dado.predict(), 'k--')
+    plt.show()
+
 
 nbaPlayers = pd.read_csv('H:\\Meus Códigos\\paito\\ai ui ai ui q dor\\exercicios\\Data Science\\Datasets\\all_seasons.csv', sep=',')
 nbaPlayersBKP = nbaPlayers.copy()
@@ -44,16 +63,14 @@ print(f"\nA média de altura dos jogadores é de \033[35m{nbaPlayers['Altura'].m
       f"A escola onde mais teve atletas de basquete foi em \033[33m{nomeEscola}\033[m, com \033[7:47m{contagemEscola[1]} registros\033[m\n"
       f"A Média do IMC dos jogadores é de {nbaPlayers['IMC'].mean():.2f}")
 
+"""nome = input('Digite o nome do jogador o qual deseja acessar seu IMC: ').title()
+print(round(float(nbaPlayers[nbaPlayers['Nome  do Jogador'] == f"{nome}"]['IMC'].values[0]), 2))"""
 
-"""nome = input("Digite o nome do jogador o qual deseja acessar seu IMC: ").title()
-print(round(float(nbaPlayers[nbaPlayers['Nome do Jogador'] == f"{nome}"]['IMC'].values[0]), 2))"""
+X = nbaPlayers['Altura']
+Y = nbaPlayers['Peso']
+estatistica = sm.OLS(Y,X).fit()
 
-nbaPlayers.info()
-
-
-jogosPorAltura = pd.pivot_table(nbaPlayers, index='Altura', values=['Pontos', 'Jogos Jogados'])
-nbaPlayers.plot.scatter(x='Altura',y='Pontos')
-plt.show()
-
+predicao(estatistica,X)
+print(estatistica.summary())
 
 #nbaPlayers.to_csv('H:\\Meus Códigos\\paito\\ai ui ai ui q dor\\exercicios\\Data Science\\Datasets\\all_seasons.csv', sep=',', index=False)
