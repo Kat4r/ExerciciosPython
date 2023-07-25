@@ -1,5 +1,6 @@
 #pandas boilerplate
 import pandas as pd
+from IPython.display import display
 import matplotlib.pyplot as plt
 import statsmodels.api as sm
 import matplotlib as mpl
@@ -93,5 +94,5 @@ plt.xticks(rotation=45, ha='center')
 plt.tight_layout()
 plt.show()
 
-print(nbaPlayers.head())
+display(nbaPlayers)
 #nbaPlayers.to_csv('H:\\Meus Códigos\\paito\\ai ui ai ui q dor\\exercicios\\Data Science\\Datasets\\all_seasons.csv', sep=',', index=False)
