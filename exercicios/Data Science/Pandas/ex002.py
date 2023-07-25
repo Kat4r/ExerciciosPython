@@ -2,6 +2,8 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 import statsmodels.api as sm
+import matplotlib as mpl
+mpl.use('TkAgg')
 pd.set_option('display.max_colwidth', 30)
 pd.set_option('display.max_rows', 20)
 pd.set_option('display.max_columns', None)
