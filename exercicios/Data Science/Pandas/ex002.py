@@ -80,9 +80,9 @@ altIdade = nbaPlayers[['Idade', 'Altura']]
 relPesoAltura = sm.OLS(peso,altura).fit()
 relIdadeAltura = sm.OLS(idade, altura).fit()
 relPesoIdadeAltura = sm.OLS(altIdade,peso).fit()
-#predicao(relPesoIdadeAltura,peso,'Relação Idade Altura','PESO')
-#predicao(relPesoAltura,altura,'PESO','ALTURA')
-#predicao(relIdadeAltura, altura,'IDADE','ALTURA')
+predicao(relPesoIdadeAltura,peso,'Relação Idade Altura','PESO')
+predicao(relPesoAltura,altura,'PESO','ALTURA')
+predicao(relIdadeAltura, altura,'IDADE','ALTURA')
 
 print(contagemEscola)
 plt.figure(figsize=(12,6))
