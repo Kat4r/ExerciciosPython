@@ -45,7 +45,7 @@ def predicao(dado,eixoX,ylabel=None,xlabel=None):
     plt.show()
 
 
-nbaPlayers = pd.read_csv('H:\\Meus Códigos\\paito\\ai ui ai ui q dor\\exercicios\\Data Science\\Datasets\\all_seasons.csv', sep=',')
+nbaPlayers = pd.read_csv('I:\\Meus Códigos\\paito\\ai ui ai ui q dor\\exercicios\\Data Science\\Datasets\\all_seasons.csv', sep=',')
 nbaPlayersBKP = nbaPlayers.copy()
 
 nbaPlayers.rename(columns={'player_name':'Nome do Jogador', 'team_abbreviation':'Abreviação do Time', 'age':'Idade', 'player_height':'Altura',
@@ -80,12 +80,16 @@ altIdade = nbaPlayers[['Idade', 'Altura']]
 relPesoAltura = sm.OLS(peso,altura).fit()
 relIdadeAltura = sm.OLS(idade, altura).fit()
 relPesoIdadeAltura = sm.OLS(altIdade,peso).fit()
-predicao(relPesoIdadeAltura,peso,'Relação Idade Altura','PESO')
-predicao(relPesoAltura,altura,'PESO','ALTURA')
-predicao(relIdadeAltura, altura,'IDADE','ALTURA')
+#predicao(relPesoIdadeAltura,peso,'Relação Idade Altura','PESO')
+#predicao(relPesoAltura,altura,'PESO','ALTURA')
+#predicao(relIdadeAltura, altura,'IDADE','ALTURA')
+
+#print(relPesoIdadeAltura.summary())
+#print(relPesoIdadeAltura.summary())
+print(relIdadeAltura.summary())
 
 print(contagemEscola)
-plt.figure(figsize=(12,6))
+"""plt.figure(figsize=(12,6))
 contagemEscola.head(15).plot.bar(color='purple')
 plt.title('Número de inscrições por Escola')
 plt.xlabel('Escola')
@@ -93,6 +97,6 @@ plt.ylabel('Inscrições')
 plt.xticks(rotation=45, ha='center')
 plt.tight_layout()
 plt.show()
-
+"""
 display(nbaPlayers)
 #nbaPlayers.to_csv('H:\\Meus Códigos\\paito\\ai ui ai ui q dor\\exercicios\\Data Science\\Datasets\\all_seasons.csv', sep=',', index=False)
